@@ -1,0 +1,53 @@
+const dinnerIdea = Math.floor(Math.random() * 15);
+
+let dinner = '';
+switch (dinnerIdea) {
+  case 0:
+    dinner = 'Chicken Nuggets!';
+    break;
+  case 1:
+    dinner = 'Spaghetti and Meat Sauce!';
+    break;
+  case 2:
+    dinner = 'Chicken Tacos!';
+    break;
+  case 3:
+    dinner = 'General Tso Chicken!';
+    break;
+  case 4:
+    dinner = 'Lasagna!';
+    break;
+  case 5:
+    dinner = 'Pad Thai!';
+    break;
+  case 6:
+    dinner = 'Hot Dogs!';
+    break;
+  case 7:
+    dinner = 'Chili!';
+    break;
+  case 8:
+    dinner = 'Pork Fried Rice!';
+    break;
+  case 9:
+    dinner = 'Breakfast!';
+    break;
+  case 10:
+    dinner = 'Chuy\'s Takeout!';
+    break;
+  case 11:
+    dinner = 'Pizza Hut!';
+    break;
+  case 12:
+    dinner = 'Enchiladas!';
+    break;
+  case 13:
+    dinner = 'Freebirds Takeout!';
+    break;
+  case 14:
+    dinner = 'North Street!'
+    break;
+  case 15:
+    dinner = 'Spaghetti and Meatballs!';
+    break;
+};
